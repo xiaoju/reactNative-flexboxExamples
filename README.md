@@ -1,3 +1,10 @@
+Flexbox examples for React Native, as per Udacity React Nanodegree, november 2017.
+https://www.youtube.com/watch?v=TO20-Xp6R3c
+
+see React-Udacity.webarchive
+
+- - - - - - - - - - - - -
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
