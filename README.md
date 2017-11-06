@@ -1,7 +1,7 @@
 Flexbox examples for React Native, as per Udacity React Nanodegree, november 2017.
 https://www.youtube.com/watch?v=TO20-Xp6R3c
 
-see React-Udacity.webarchive
+see React-Udacity.pdf
 
 - - - - - - - - - - - - -
 
