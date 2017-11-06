@@ -5,9 +5,9 @@ class FlexboxExamples extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.box}/>
-        <View style={styles.box}/>
-        <View style={styles.box}/>
+        <View style={[styles.box, {flex: 1}]}/>
+        <View style={[styles.box, {flex: 2}]}/>
+        <View style={[styles.box, {flex: 1}]}/>
       </View>
     )
   }
@@ -16,12 +16,14 @@ class FlexboxExamples extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'flex-start',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   box: {
     height: 50,
     width: 50,
-    backgroundColor: '#e76e63',
+    backgroundColor: 'blue',
     margin: 10,
   }
 })
