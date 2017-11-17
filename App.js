@@ -6,7 +6,7 @@ class FlexboxExamples extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.box}/>
-        <View style={[styles.box, {alignSelf: 'flex-end'}]}/>
+        <View style={styles.box}/>
         <View style={styles.box}/>
       </View>
     )
@@ -17,8 +17,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: 'flex-end',
+    alignItems: 'flex-start',
   },
   box: {
     height: 50,
